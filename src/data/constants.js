@@ -114,6 +114,12 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png",
       },
       {
+        name: "Elasticsearch",
+        link:"https://drive.google.com/drive/folders/1uKO0AyreNLGrX6IEzGH4tqAJYkdO5TUq?usp=sharing",
+        image:
+          "https://seeklogo.com/images/E/elasticsearch-logo-C75C4578EC-seeklogo.com.png",
+      },
+      {
         name: "Redis",
         link:"https://drive.google.com/drive/folders/1nu1xYy_n3fIETIWcxbJdX2nIf1vFOpY8?usp=sharing",
         image:
@@ -259,12 +265,6 @@ export const skills = [
         link:"https://drive.google.com/drive/folders/1clAzk2z_5mlcNRdEV0ZZbZ6g3EPz9xcS?usp=sharing",
         image:
           "https://cdn.worldvectorlogo.com/logos/postman.svg",
-      },
-      {
-        name: "Elasticsearch",
-        link:"https://drive.google.com/drive/folders/1uKO0AyreNLGrX6IEzGH4tqAJYkdO5TUq?usp=sharing",
-        image:
-          "https://seeklogo.com/images/E/elasticsearch-logo-C75C4578EC-seeklogo.com.png",
       },
       {
         name: "Marshmallow",

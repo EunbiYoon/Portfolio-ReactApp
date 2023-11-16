@@ -134,10 +134,8 @@ const Skills = () => {
       <Wrapper>
         <Title>Skills</Title>
         <Desc>
-          {`
             Here are some of my skills that I have been working on so far.
-            To check the progress of skills, select each icon ! 
-          `}
+            To check the progress of skills, select icon ! Some will link for detailed.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (

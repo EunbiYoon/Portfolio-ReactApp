@@ -80,13 +80,6 @@ const SocialMediaIcon = styled.a`
   }
 `;
 
-const Copyright = styled.p`
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
-  text-align: center;
-`;
-
 function Footer() {
   return (
     <FooterContainer>
@@ -104,7 +97,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href="mailto: yebport@gmail.com" target="display"><EmailIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="click-to-call: 931-998-0957" target="display"><PermPhoneMsgIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="callto: 931-998-0957" target="display"><PermPhoneMsgIcon /></SocialMediaIcon>
         </SocialMediaIcons>
 
       </FooterWrapper>
