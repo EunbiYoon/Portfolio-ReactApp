@@ -453,7 +453,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Delivery Package System",
+    title: "Parcel Delivery Solution",
     date: "May 2021 - Aug 2021",
     description:
       "When registering a parcel, register the parcel by scanning or directly entering the barcode or QR code using html5-qrcode javascript. If a parcel arrives without any information, a QR code or barcode is generated with random numbers using a generator with the Google Chart API function. Parcels registered in the system can be checked on the table page using datatable javascript. The search function of datatable javascript is applied to all columns and shows all rows corresponding to the keyword in any column.",
@@ -477,7 +477,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Truck Tracking Solution",
+    title: "Truck Tracking Portal",
     date: "Sep 2023 - Present",
     description:
       "It is a CRUD application based on rest API. The database is configured with MySQL. And database tuning or monitoring is possible through phpmyadmin. The distributed app is in the form of a Django application, but is currently being converted to the Laravel PHP web framework to better perform the photo upload function.",
