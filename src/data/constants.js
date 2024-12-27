@@ -1,3 +1,24 @@
+import CassandraImage from '../images/cassandra.png';
+import EmailjsImage from '../images/emailjs.png';
+import MailtrapImage from '../images/mailtrap.png';
+import AIImage from '../images/AI.png';
+import DXImage from '../images/DX.png';
+import DX2Image from '../images/DX2.png';
+import EmployeeImage from '../images/Employee.png';
+import Employee2Image from '../images/Employee2.png';
+import Employee3Image from '../images/Employee3.png';
+import KHUImage from '../images/KHU.png';
+import QualityAwardImage from '../images/QualityAward.png';
+import QualityAward2Image from '../images/QualityAward2.png';
+import CostImage from '../images/cost.gif';
+import DeliveryImage from '../images/delivery.gif';
+import ParkingImage from '../images/parking.gif';
+import QualityImage from '../images/quality.gif';
+import ReinventImage from "../images/reinvent.gif"
+import TruckImage from "../images/truck.gif"
+import VideoImage from "../images/video.gif"
+import VisitorImage from "../images/visitor.gif"
+
 export const Bio = {
   name: "Eunbi Yoon",
   roles: [
@@ -129,7 +150,7 @@ export const skills = [
         name: "Cassandra",
         link:"https://drive.google.com/drive/folders/1zRsK6_D8NpzqvILG0zs70QKBSnIMVbkT?usp=sharing",
         image:
-          "./cassandra.png",
+          CassandraImage,
       },
       {
         name: "ElephantSQL",
@@ -301,13 +322,13 @@ export const skills = [
         name: "Email JS",
         link:"https://drive.google.com/drive/folders/1RbAUrA65pC5dE56nYqT3irT0-EMaGZtJ?usp=sharing",
         image:
-          "./emailjs.png",
+          EmailjsImage,
       },
       {
         name: "Mailtrap",
         link:"https://drive.google.com/drive/folders/17xm9IEztEX0s3MtuJuGOsRkNtXX_r8Gn?usp=sharing",
         image:
-          "./mailtrap.png",
+          MailtrapImage,
       }
     ],
   },
@@ -359,6 +380,7 @@ export const skills = [
   },
 ];
 
+
 export const experiences = [
   {
     id: 0,
@@ -377,13 +399,13 @@ export const experiences = [
       "Docker",
     ],
     docs: [
-      "./DX.png",
-      "./DX2.png",
-      "./Employee.png",
-      "./Employee2.png",
-      "./Employee3.png",
-      "./Quality.png",
-      "./Quality2.png"
+      DXImage,
+      DX2Image,
+      EmployeeImage,
+      Employee2Image,
+      Employee3Image,
+      QualityAwardImage,
+      QualityAward2Image
     ]
   },
   {
@@ -402,7 +424,7 @@ export const experiences = [
       "Agile/Scrum"
     ],
     docs: [
-      "./AI.png",
+      AIImage,
     ]
   },
   {
@@ -421,7 +443,7 @@ export const experiences = [
       "Screen Scanning",
     ],
     docs: [
-      "./KHU.png",
+      KHUImage,
     ]
   },
 ];
@@ -445,7 +467,7 @@ export const projects = [
     date: "Oct 2022 - May 2023",
     description:
       "With RPA process, use the pandas dataframe to compare two data or analyze the cause of change in trends. Analyze. Instead of saving the analysis results in the database, they are converted to json format and delivered to the report. The report information is stored in the database, and when an http request is received, a report linking the database and json is displayed.",
-    image:'/cost.gif',
+    image:CostImage,
     tags: ["JSON", "Chart Js", "Pandas", "Django"],
     category: "ERP Dashboard",
     github: "https://github.com/EunbiYoon/Cost-Data-Center",
@@ -457,7 +479,7 @@ export const projects = [
     date: "May 2021 - Aug 2021",
     description:
       "When registering a parcel, register the parcel by scanning or directly entering the barcode or QR code using html5-qrcode javascript. If a parcel arrives without any information, a QR code or barcode is generated with random numbers using a generator with the Google Chart API function. Parcels registered in the system can be checked on the table page using datatable javascript. The search function of datatable javascript is applied to all columns and shows all rows corresponding to the keyword in any column.",
-    image:"./delivery.gif",
+    image:DeliveryImage,
     tags: ["QR","Barcode","Scan",'Generator'],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/delivery",
@@ -469,7 +491,7 @@ export const projects = [
     date: "Sep 2021 - Dec 2021",
     description:
       "This application does not use the default user type but is custom. The reason is because there is a team to which the user belongs. This application is divided into two permissions. User permissions allow you to only check requests from your own team. However, administrators can access the all list view. In the case of My Day, since it can be used once a month, the credit is renewed on the 1st of every month. At this time, the scheduled queue is executed using rabbitmq. If the request does not have credit or does not meet other conditions, an error message is returned and displayed on the template to help the user recognize the error and make a proper request.",
-    image:"./reinvent.gif",
+    image:ReinventImage,
     tags: ["Auth",'Credit','Error','RabbitMQ'],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/reinvent",
@@ -481,7 +503,7 @@ export const projects = [
     date: "Sep 2023 - Present",
     description:
       "It is a CRUD application based on rest API. The database is configured with MySQL. And database tuning or monitoring is possible through phpmyadmin. The distributed app is in the form of a Django application, but is currently being converted to the Laravel PHP web framework to better perform the photo upload function.",
-    image:"./truck.gif",
+    image:TruckImage,
     tags: ["REST API", "MySQL", "PHP", "MVC"],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/truck",
@@ -492,7 +514,7 @@ export const projects = [
     title: "Quality Analysis Dashboard",
     date: "Feb 2022 - Sep 2022",
     description:"When the page is refreshed, random data is automatically analyzed by the RPA process. Based on node.js technology, javascript and jquery such as chartjs and datatables used on displaying charts or tables. It is designed to periodically upload new data through celery. To indicator value, Flask was chosen as the web framework to handle long calculation.",
-    image:"/quality.gif",
+    image:QualityImage,
     tags: ["Javascript", "Node Js", "Celery", "Flask"],
     category: "ERP Dashboard",
     github: "https://github.com/EunbiYoon/Data-Analysis-Report-Final-App",
@@ -504,7 +526,7 @@ export const projects = [
     date: "Feb 2020 - Apr 2020",
     description:
       "Embedded video is connected, so you can watch videos. After watching the video, we conducted a feedback survey using MongoDB, a Nosql database. Database monitoring can be done regardless of the server using the web-based MongoDB Compass. To prevent copyright issues, all HTML and CSS on this page were designed and entered manually.",
-    image: "./video.gif",
+    image: VideoImage,
     tags: ["MongoDB","Html","CSS","Embedded"],
     category: "Mobile Responsive",
     github: "https://github.com/EunbiYoon/LG-Video-Trouble-Shooting-Final-App",
@@ -516,7 +538,7 @@ export const projects = [
     date: "May 2020 - Dec 2020",
     description:
       "This system operates by installing apache on a window server for production. When a user registers a visitor, related information is sent to the approval line. The payer is the primary user's team leader, and the secondary is the security team leader. It is a parallel structure, and payment requests are received via email. It connects to the company's internal server network using an SMTP server and automatically sends emails when data is created. If it is not running locally, configure mail transmission using the emailjs or mailtrap system.",
-    image:"./visitor.gif",
+    image:VisitorImage,
     tags: ["Apache", "SMTP", "Email JS", "Server"],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/visitor",
@@ -528,7 +550,7 @@ export const projects = [
     date: "Jan 2021 - Apr 2021",
     description:
       "This system manages and tows vehicles that violate parking regulations in a parking lot. Security Guard walks through the parking lot, registers offending vehicles and counts the number of violations in the system's PostgreSQL database. When you register a parking violation, a ticket is automatically issued, printed on a mobile printer, and displayed in the vehicle window.",
-    image:"./parking.gif",
+    image:ParkingImage,
     tags: ["AWS", "PostgreSQL", "Ticket", "Mobile"],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/parking",
