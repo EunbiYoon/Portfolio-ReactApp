@@ -471,7 +471,7 @@ export const projects = [
     tags: ["JSON", "Chart Js", "Pandas", "Django"],
     category: "ERP Dashboard",
     github: "https://github.com/EunbiYoon/Cost-Data-Center",
-    webapp: "https://yebdata.com/"
+    webapp: "/costdatacenter"
   },
   {
     id: 5,
@@ -483,7 +483,7 @@ export const projects = [
     tags: ["QR","Barcode","Scan",'Generator'],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/delivery",
-    webapp: "https://reinventsecurity.com/security/delivery",
+    webapp: "/securityreinvent/securitycenter/deliveryportal",
   },
   {
     id: 6,
@@ -495,7 +495,7 @@ export const projects = [
     tags: ["Auth",'Credit','Error','RabbitMQ'],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/reinvent",
-    webapp: "https://reinventsecurity.com/reinvent",
+    webapp: "/securityreinvent/reinventcenter",
   },
   {
     id: 3,
@@ -507,7 +507,7 @@ export const projects = [
     tags: ["REST API", "MySQL", "PHP", "MVC"],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/truck",
-    webapp: "https://reinventsecurity.com/security/truck/",
+    webapp: "/securityreinvent/securitycenter/truckportal",
   },
   {
     id: 1,
@@ -518,7 +518,7 @@ export const projects = [
     tags: ["Javascript", "Node Js", "Celery", "Flask"],
     category: "ERP Dashboard",
     github: "https://github.com/EunbiYoon/Data-Analysis-Report-Final-App",
-    webapp: "https://qualityanalysis.net/",
+    webapp:  "/qualityanalysisdashboard",
   },
   {
     id: 2,
@@ -530,7 +530,7 @@ export const projects = [
     tags: ["MongoDB","Html","CSS","Embedded"],
     category: "Mobile Responsive",
     github: "https://github.com/EunbiYoon/LG-Video-Trouble-Shooting-Final-App",
-    webapp: "https://lgsupportvideo.com/"
+    webapp: "/lgsupportvideo",
   },
   {
     id: 4,
@@ -542,7 +542,7 @@ export const projects = [
     tags: ["Apache", "SMTP", "Email JS", "Server"],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/visitor",
-    webapp: "https://reinventsecurity.com/security/visitor/",
+    webapp: "/securityreinvent/securitycenter/visitorportal",
   },
   {
     id: 4,
@@ -554,7 +554,7 @@ export const projects = [
     tags: ["AWS", "PostgreSQL", "Ticket", "Mobile"],
     category: "REST API",
     github: "https://github.com/EunbiYoon/SecurityReinventCenter/tree/main/parking",
-    webapp: "https://reinventsecurity.com/security/parking/",
+    webapp:  "/securityreinvent/securitycenter/parkingportal",
   }
 ];
 

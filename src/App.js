@@ -3,7 +3,7 @@ import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -33,6 +33,14 @@ function App() {
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
+        <Routes>
+          <Route path="/">
+            {() => {
+              window.location.href = '/';
+              return null;
+            }}
+          </Route>
+        </Routes>
         <Body>
           <HeroSection />
           <Wrapper>
@@ -40,6 +48,56 @@ function App() {
             <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Routes>
+            <Route path="/costdatacenter">
+              {() => {
+                window.location.href = '/costdatacenter/';
+                return null;
+              }}
+            </Route>
+            <Route path="/securityreinvent/securitycenter/deliveryportal">
+              {() => {
+                window.location.href = '/securityreinvent/securitycenter/deliveryportal/';
+                return null;
+              }}
+            </Route>
+            <Route path="/securityreinvent/reinventcenter">
+              {() => {
+                window.location.href = '/securityreinvent/reinventcenter/';
+                return null;
+              }}
+            </Route>
+            <Route path="/securityreinvent/securitycenter/truckportal">
+              {() => {
+                window.location.href = '/securityreinvent/securitycenter/truckportal/';
+                return null;
+              }}
+            </Route>
+            <Route path="/qualityanalysisdashboard">
+              {() => {
+                window.location.href = '/qualityanalysisdashboard/';
+                return null;
+              }}
+            </Route>
+            <Route path="/lgsupportvideo">
+              {() => {
+                window.location.href = '/lgsupportvideo/';
+                return null;
+              }}
+            </Route>
+            <Route path="/securityreinvent/securitycenter/visitorportal">
+              {() => {
+                window.location.href = '/securityreinvent/securitycenter/visitorportal/';
+                return null;
+              }}
+            </Route>
+            <Route path="/securityreinvent/securitycenter/parkingportal">
+              {() => {
+                window.location.href = '/securityreinvent/securitycenter/parkingportal/';
+                return null;
+              }}
+            </Route>
+          </Routes>
           <Wrapper>
             <Education />
             <Contact />
