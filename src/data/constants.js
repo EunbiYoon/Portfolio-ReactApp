@@ -361,19 +361,36 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 1,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQE6r8NiwiAq9w/company-logo_200_200/company-logo_200_200/0/1668787228437/ptkorea_logo?e=1766016000&v=beta&t=BIYfyCZrwZkUto3sALh_kG0o7qn7NrOGUxSO2itUd-E",
+    role: "Associate Manager",
+    company: "PTKOREA",
+    date: "Feb 2025 - Oct 2025",
+    desc: "Data Engineering",
+    skills: [
+      "ETL",
+      "Data Engineering",
+      "DevOps",
+      "AWS",
+      "GraphQL",
+      "Node.Js",
+      "Python",
+    ]
+  },
+  {
+    id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/LG_symbol.svg/640px-LG_symbol.svg.png",
-    role: "Development Engineer",
+    role: "Software Engineer 2",
     company: "LG Electronics North America",
-    date: "Feb 2020 - Present",
+    date: "Feb 2020 - Jun 2024",
     desc: "Designed and developed web application(data analysis, CRUD) for internal use",
     skills: [
-      "MySQL",
+      "PostgreSQL",
       "AWS",
       "Apache",
       "REST API",
       "JSON",
-      "JavaScript",
+      "Python",
       "Docker",
     ],
     docs: [
@@ -385,54 +402,24 @@ export const experiences = [
       "./Quality.png",
       "./Quality2.png"
     ]
-  },
-  {
-    id: 1,
-    img: "https://media.licdn.com/dms/image/C560BAQFHrAOsTC1_Lw/company-logo_200_200/0/1630662393266/aibrain_inc_logo?e=2147483647&v=beta&t=rKrXERBmCTQR4FGN8S0CtvgQZAvBm4Y-PwDO72_h-EY",
-    role: "Development Intern",
-    company: "AI Brain",
-    date: "Dec 2018 – Nov 2019",
-    desc: "Created a multi-user VR smart factory by integrating fAutonomy AI class",
-    skills: [
-      "Unit Test",
-      "C#",
-      "Unity",
-      "VR",
-      "Machine Learning",
-      "Agile/Scrum"
-    ],
-    docs: [
-      "./AI.png",
-    ]
-  },
-  {
-    id: 2,
-    img: "https://foundation.ifma.org/wp-content/uploads/2017/03/KHU.png",
-    role: "Research Assistant",
-    company: "Unity Development Lab",
-    date: "Jun 2018 – Dec 2019",
-    desc: "Developed E-Commerce mobile application and built online games",
-    skills: [
-      "C#",
-      "Unity",
-      "E-Commerce",
-      "GUI",
-      "AR",
-      "Screen Scanning",
-    ],
-    docs: [
-      "./KHU.png",
-    ]
-  },
+  }
 ];
 
 export const education = [
   {
     id: 0,
+    img: "https://cdn.brandfetch.io/idTPYXeKst/w/180/h/180/theme/dark/logo.png?c=1bxid64Mup7aczewSAYMX&t=1759330543896",
+    school: "University of Massachusetts Amherst",
+    date: "Sep 2024 - Dec 2026",
+    grade: "4.0/4.0 GPA",
+    desc: "Researched Artificial Intelligence and Machine Learning with a strong foundation in building predictive systems and intelligent decision-making models. Gained hands-on experience in supervised and unsupervised learning, reinforcement learning, natural language processing, computer vision, and deep learning. Took advanced courses such as Machine Learning, Reinforcement Learning, Artificial Intelligence, Neural Networks, Systems for Data Science, and Multimodal Learning. Learned how to design end-to-end ML pipelines, tune models, evaluate performance, and apply algorithms to real-world use cases.",
+    degree: "Master of Science - Computer Science",
+  },
+  {
+    id: 1,
     img: "https://foundation.ifma.org/wp-content/uploads/2017/03/KHU.png",
     school: "Kyunghee Univeristy",
     date: "Mar 2016 - Feb 2020",
-    grade: "3.09 GPA",
     desc: "Studied Software Development and Computer Engineering field and learned how to write object oriented and clean code in C++, C#, and Java programming language. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Computer Architecture, Digital Communication and Digital Logic circuit among others. Graduated with a software development track.",
     degree: "Bachelor of Engineering - Electronic Engineering",
   }
