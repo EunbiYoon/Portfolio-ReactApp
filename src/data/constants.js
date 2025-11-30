@@ -1,55 +1,75 @@
 export const Bio = {
   name: "Eunbi Yoon",
   roles: [
+    "AI/ML Engineer",
     "Full Stack Developer",
-    "Web Developer",
+    "Data Scientist",
+    "Data Engineer",
     "Software Engineer"
   ],
   description:"A software developer who analyzes problems, quickly learns new technologies, and ultimately solves them. And who is ambitious to implement a service that everyone use and be satisfied with in the future.",
   github: "https://github.com/EunbiYoon",
-  codenotebook:"https://drive.google.com/drive/folders/1fTut4Zb12gL_tEGqBFMXCrxC9mwpOJGN?usp=sharing",
+  notion:"https://able-fragrance-2c9.notion.site/a383a66c8ec84954af9df857d289b64c?v=49cc3fb120994439b43a38ccf0c02ee9",
   linkedin: "https://www.linkedin.com/in/eunbiyoon0717/",
-  email:"yebport@gmail.com",
-  permphonemsg:"931-998-0957"
+  email:"eunbiyoon@umass.edu",
+  permphonemsg:"708-830-8568"
 };
 
 export const skills = [
-  {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        link:'https://drive.google.com/drive/folders/1TSwl5vIcxfix9uIhAAUOwGx1_YP9UDCt?usp=sharing',
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Vue Js",
-        link:'https://drive.google.com/drive/folders/1WEexg-Lg99kkhJaRSWTEqAhxFk4IvtVm?usp=sharing',
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      }
-    ],
-  },
+    {
+      title:"Machine Learning",
+      skills:[
+        {
+          name:"PyTorch",
+          image:"./torch.png"
+        },
+        {
+          name:"TensorFlow",
+          image:"./tensor.jpeg"
+        },
+        {
+          name:"Scikit-learn",
+          image:"./scikit.png"
+        },
+        {
+          name:"HuggingFace",
+          image:"https://logowik.com/content/uploads/images/hugging-face1720994339.logowik.com.webp"
+        },
+        {
+          name:"OpenCV",
+          image:"./opencv.png"
+        },
+      ]
+    },
+    {
+      title: "Data Analysis",
+      skills: [
+        {
+          name: "PySpark",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcDHbcRvjhaITphqZcEJ6I6i0bT9fLXyF5NA&s",
+        },
+        {
+          name: "Pandas",
+          link:"https://drive.google.com/drive/folders/1AJgkfKiuF7xSs9pxLqIlD4GH1LHTG1OB?usp=sharing",
+          image:
+            "https://pandas.pydata.org//static/img/favicon_white.ico",
+        },
+        {
+          name: "ChartJs",
+          link:"https://drive.google.com/drive/folders/1pXQW__a5xtc3I_AzDMArGxL1Jayz9giH?usp=sharing",
+          image:
+            "https://avatars.githubusercontent.com/u/10342521?s=280&v=4",
+        },
+        {
+          name: "Streamlit",
+          link:"https://drive.google.com/drive/folders/1v2TvC6BoiDDNtftoj4ltiaMAvOwx61sz?usp=sharing",
+          image:
+            "https://archive.org/download/github.com-streamlit-streamlit_-_2020-06-10_07-36-23/cover.jpg",
+        },
+      ],
+    },
+   
   {
     title: "Backend",
     skills: [
@@ -87,6 +107,42 @@ export const skills = [
 
     ],
   },
+   {
+    title: "Frontend",
+    skills: [
+      {
+        name: "React Js",
+        link:'https://drive.google.com/drive/folders/1TSwl5vIcxfix9uIhAAUOwGx1_YP9UDCt?usp=sharing',
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Vue Js",
+        link:'https://drive.google.com/drive/folders/1WEexg-Lg99kkhJaRSWTEqAhxFk4IvtVm?usp=sharing',
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Bootstrap",
+        image:
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      }
+    ],
+  },
   {
     title: "Database",
     skills: [
@@ -113,30 +169,30 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png",
       },
-      {
-        name: "Elasticsearch",
-        link:"https://drive.google.com/drive/folders/1uKO0AyreNLGrX6IEzGH4tqAJYkdO5TUq?usp=sharing",
-        image:
-          "https://seeklogo.com/images/E/elasticsearch-logo-C75C4578EC-seeklogo.com.png",
-      },
+      // {
+      //   name: "Elasticsearch",
+      //   link:"https://drive.google.com/drive/folders/1uKO0AyreNLGrX6IEzGH4tqAJYkdO5TUq?usp=sharing",
+      //   image:
+      //     "https://seeklogo.com/images/E/elasticsearch-logo-C75C4578EC-seeklogo.com.png",
+      // },
       {
         name: "Redis",
         link:"https://drive.google.com/drive/folders/1nu1xYy_n3fIETIWcxbJdX2nIf1vFOpY8?usp=sharing",
         image:
           "https://www.svgrepo.com/show/303460/redis-logo.svg",
       },
-      {
-        name: "Cassandra",
-        link:"https://drive.google.com/drive/folders/1zRsK6_D8NpzqvILG0zs70QKBSnIMVbkT?usp=sharing",
-        image:
-          "./cassandra.png",
-      },
-      {
-        name: "ElephantSQL",
-        link:"https://drive.google.com/drive/folders/1uKO0AyreNLGrX6IEzGH4tqAJYkdO5TUq?usp=sharing",
-        image:
-          "https://pbs.twimg.com/profile_images/2661035254/f1797e21af006ca889d3e5f39293fca1_400x400.png",
-      },
+      // {
+      //   name: "Cassandra",
+      //   link:"https://drive.google.com/drive/folders/1zRsK6_D8NpzqvILG0zs70QKBSnIMVbkT?usp=sharing",
+      //   image:
+      //     "./cassandra.png",
+      // },
+      // {
+      //   name: "ElephantSQL",
+      //   link:"https://drive.google.com/drive/folders/1uKO0AyreNLGrX6IEzGH4tqAJYkdO5TUq?usp=sharing",
+      //   image:
+      //     "https://pbs.twimg.com/profile_images/2661035254/f1797e21af006ca889d3e5f39293fca1_400x400.png",
+      // },
     ],
   },
   {
@@ -156,31 +212,25 @@ export const skills = [
       {
         name: "Google Cloud Platform",
         link:"https://drive.google.com/drive/folders/1fBBmR_Do-Q6Dt1By805l4A8OYCq25YlW?usp=sharing",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg"
       },
       {
         name: "Heroku",
         link:"https://drive.google.com/drive/folders/14zDmM50MOxBZ1LdBplOuOGcIdduTn1Ny?usp=sharing",
         image:
-          "https://static-00.iconduck.com/assets.00/heroku-icon-icon-1843x2048-hklv6w4m.png",
+          "./heroku.png",
       },
-      {
-        name: "Render.com",
-        link:"https://drive.google.com/drive/folders/1Zn4ZfamwG8f0sC57UeDWm0aht987Xypp?usp=sharing",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVR4Ae1WgUZEQRRdgP6iAAEFWlDRm3kAlUCUQKuKhFVYELBUAUhEIWwRvL13+5AAbG/u9gsBlPPstWOjXs16ln2XA8fM3DMzd+aeShll/BZV15oyjtas40sr9GAdt75B2tsYa1171Th66mM/49KOGXBc/1Ny6zqbVujdCn/+BCN0no0XOvW4W3BGuDbg+Dl/cqEznVi4AOx8KMmHcXQfCR9Zod1hRELVLFkvmUNCIHK0BC7qJrPKmZRsrjvHsXuqX83by0ylqEDB+TuPuzwdtl6yaIVuMqS0l2MCX6kA4/guJPm/agBPzSuk4+IFOH70TuAgVMBKj+aN40YGoY1AAeFRuAAjyYIVagKx8FaggPAamDwB+CWt0AVgUt6ZvCJEf0CTAmLh9bII801wfA3EwsuhAtCW4Q0A6zqHlbEPeDg1EDAT2lKVw9+uP5xyIzUkMI/endXAoZd7ddHoc03l8MYDLNnYCeA6BgJ6ZHAyymlLRWNRTn84vHPltOCwhlFO6GQ4XxllfAG7WqXJbe+TdQAAAABJRU5ErkJggg==",
-      },
+      // {
+      //   name: "Render.com",
+      //   link:"https://drive.google.com/drive/folders/1Zn4ZfamwG8f0sC57UeDWm0aht987Xypp?usp=sharing",
+      //   image:
+      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVR4Ae1WgUZEQRRdgP6iAAEFWlDRm3kAlUCUQKuKhFVYELBUAUhEIWwRvL13+5AAbG/u9gsBlPPstWOjXs16ln2XA8fM3DMzd+aeShll/BZV15oyjtas40sr9GAdt75B2tsYa1171Th66mM/49KOGXBc/1Ny6zqbVujdCn/+BCN0no0XOvW4W3BGuDbg+Dl/cqEznVi4AOx8KMmHcXQfCR9Zod1hRELVLFkvmUNCIHK0BC7qJrPKmZRsrjvHsXuqX83by0ylqEDB+TuPuzwdtl6yaIVuMqS0l2MCX6kA4/guJPm/agBPzSuk4+IFOH70TuAgVMBKj+aN40YGoY1AAeFRuAAjyYIVagKx8FaggPAamDwB+CWt0AVgUt6ZvCJEf0CTAmLh9bII801wfA3EwsuhAtCW4Q0A6zqHlbEPeDg1EDAT2lKVw9+uP5xyIzUkMI/endXAoZd7ddHoc03l8MYDLNnYCeA6BgJ6ZHAyymlLRWNRTn84vHPltOCwhlFO6GQ4XxllfAG7WqXJbe+TdQAAAABJRU5ErkJggg==",
+      // },
     ],
   },
   {
     title: "Web",
     skills: [
-      {
-        name: "Laravel",
-        link:"https://drive.google.com/drive/folders/1fLMWGwXi3IE0TewbiFnrtTE2SOn28SYe?usp=sharing",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
-      },
       {
         name: "Django",
         link:"https://drive.google.com/drive/folders/1HlaPnqkDSGUWsKXtjSZbmDA9FWFtK3wj?usp=sharing",
@@ -190,6 +240,15 @@ export const skills = [
         name: "Flask",
         link:"https://drive.google.com/drive/folders/1i0qF1YzkUUk-NQ22cOw7BY4M5_MtTIzj?usp=sharing",
         image:"https://cdn.buttercms.com/w8lc0UqsQCnPG0Ax6aiM"
+      },
+            {
+        name: "FastAPI",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_3MFhCzXcwI3GWIDTsWJg2HXDTG7TwGovA&s"
+      },
+            {
+        name: "Laravel",
+        link:"https://drive.google.com/drive/folders/1fLMWGwXi3IE0TewbiFnrtTE2SOn28SYe?usp=sharing",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
       },
   ]
   },
@@ -241,7 +300,7 @@ export const skills = [
         name: "RabbitMQ",
         link:"https://drive.google.com/drive/folders/1Y2umjmJVjX10XsjuEtEOImypl-Z-Bv7L?usp=sharing",
         image:
-          "https://static-00.iconduck.com/assets.00/rabbitmq-icon-484x512-wta62tgc.png",
+          "./rabbitmq.jpg",
       },
       {
         name: "Kafka",
@@ -258,7 +317,7 @@ export const skills = [
         name: "Insomnia",
         link:"https://drive.google.com/drive/folders/1pTcPlzEYm0PSh9tC6ZsofJz74NbSrHrJ?usp=sharing",
         image:
-          "https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png",
+          "https://images.seeklogo.com/logo-png/39/1/insomnia-logo-png_seeklogo-398689.png",
       },
       {
         name: "Postman",
@@ -285,7 +344,7 @@ export const skills = [
       {
         name: "Nginx",
         image:
-          "https://static-00.iconduck.com/assets.00/nginx-icon-444x512-0meva297.png",
+          "nginx.jpeg",
       },
       {
         name: "Ubuntu",
@@ -312,29 +371,6 @@ export const skills = [
     ],
   },
   {
-    title: "Data",
-    skills: [
-      {
-        name: "Pandas",
-        link:"https://drive.google.com/drive/folders/1AJgkfKiuF7xSs9pxLqIlD4GH1LHTG1OB?usp=sharing",
-        image:
-          "https://pandas.pydata.org//static/img/favicon_white.ico",
-      },
-      {
-        name: "ChartJs",
-        link:"https://drive.google.com/drive/folders/1pXQW__a5xtc3I_AzDMArGxL1Jayz9giH?usp=sharing",
-        image:
-          "https://avatars.githubusercontent.com/u/10342521?s=280&v=4",
-      },
-      {
-        name: "Streamlit",
-        link:"https://drive.google.com/drive/folders/1v2TvC6BoiDDNtftoj4ltiaMAvOwx61sz?usp=sharing",
-        image:
-          "https://archive.org/download/github.com-streamlit-streamlit_-_2020-06-10_07-36-23/cover.jpg",
-      },
-    ],
-  },
-  {
     title: "Agile/Scrum",
     skills: [
       {
@@ -347,7 +383,7 @@ export const skills = [
         name: "Jira",
         link:"https://drive.google.com/drive/folders/1AHwhp5UaBi2igBvFAHt6NYewFp-meVPS?usp=sharing",
         image:
-          "https://seeklogo.com/images/J/jira-logo-C71F8C0324-seeklogo.com.png",
+          "./jira.jpeg",
       },
       {
         name: "Bitbucket",
@@ -356,7 +392,8 @@ export const skills = [
           "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/44_Bitbucket_logo_logos-512.png",
       },
     ],
-  },
+  }
+
 ];
 
 export const experiences = [
@@ -366,7 +403,7 @@ export const experiences = [
     role: "Associate Manager",
     company: "PTKOREA",
     date: "Feb 2025 - Oct 2025",
-    desc: "Data Engineering",
+    desc: "Designed automated ETL and data analytics pipelines using PySpark, SQL, Airflow, and Kubernetes to process 7B+ Samsung.com behavioral data and deliver real-time Tableau insights, improving reporting latency and operational reliability.",
     skills: [
       "ETL",
       "Data Engineering",
@@ -383,7 +420,7 @@ export const experiences = [
     role: "Software Engineer 2",
     company: "LG Electronics North America",
     date: "Feb 2020 - Jun 2024",
-    desc: "Designed and developed web application(data analysis, CRUD) for internal use",
+    desc: "Developed scalable cost/quality analytics and customer self-service platforms using Python, MongoDB, and Docker deployed on AWS ECS, reducing service inquiries by 35% and improving analysis accuracy by 90%.",
     skills: [
       "PostgreSQL",
       "AWS",

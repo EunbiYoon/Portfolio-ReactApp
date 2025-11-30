@@ -31,7 +31,7 @@ const HeroSection = () => {
                             #Fast Learner #Challenger #Analyzer
                             <br/>{Bio.description}
                         </SubTitle>
-                        <ResumeButton href={Bio.codenotebook} target='display'>Code Notebook</ResumeButton>
+                        <ResumeButton href={Bio.notion} target='display'>Notion</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
