@@ -96,7 +96,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.codenotebook} target="display"><CodeIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="mailto: yebport@gmail.com" target="display"><EmailIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="mailto: eunbiyoon@umass.edu" target="display"><EmailIcon /></SocialMediaIcon>
           <SocialMediaIcon href="callto: 931-998-0957" target="display"><PermPhoneMsgIcon /></SocialMediaIcon>
         </SocialMediaIcons>
 
